@@ -12,4 +12,4 @@ This repository contains **4** files:
 3. CodeBook.md is the file in which all the variables and the whole of the data set are described
 
 4. run_analysis.R is the file containing the code than enabled reshaping the initial data to the final form
-   which meets all the requirements of a tidy data set.  
+   which meets all the requirements of a tidy data set as well as brief comments summing up the actions
