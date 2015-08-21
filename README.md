@@ -4,7 +4,7 @@
 
 This repository contains **4** files:
 
-1. This one, namely README.md which purpose is to describe the connections between the files in the repository
+1. This one, namely README.md purpose of which is to describe the connections between the files in the repository
 
 2. Tidy Data Set.txt which is the tidy data set being the result of the assignment. It can be read in the form of a table
    containing 88 variables and 180 observations
