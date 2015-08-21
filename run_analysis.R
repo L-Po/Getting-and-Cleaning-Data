@@ -1,4 +1,4 @@
-### 1.
+### 1. Merges the training and the test sets to create one data set.
 
 Y_train <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/y_train.txt")
 X_train <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/train/X_train.txt")
@@ -12,7 +12,7 @@ test  <- cbind(subject_test, Y_test, X_test)
 
 global_set <- rbind(train, test)
 
-### 2. 
+### 2. Extracts only the measurements on the mean and standard deviation for each measurement.
 
 var_labels <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/features.txt")
 
@@ -24,7 +24,7 @@ adjusted_column_selection <- column_selection + 2
 
 global_set <- cbind(global_set[,1:2], global_set[adjusted_column_selection])
 
-### 3. 
+### 3. Uses descriptive activity names to name the activities in the data set
 
 activity_labels <- read.table("./getdata-projectfiles-UCI HAR Dataset/UCI HAR Dataset/activity_labels.txt")
 
@@ -33,7 +33,7 @@ global_set <- merge(activity_labels, global_set, by.x = "V1", by.y = "V1.1")
 global_set[,1] <- global_set[,3]
 global_set[,3] <- NULL
 
-### 4. 
+### 4. Appropriately labels the data set with descriptive variable names.
 
 var_names <- c("ID", "Activities", var_labels[column_selection])
 
@@ -52,7 +52,8 @@ var_names <- gsub("GyroMean", "Gyro Mean", var_names)
 
 names(global_set) <- var_names
 
-### 5. 
+### 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable 
+### for each activity and each subject
 
 tidySet <- aggregate(. ~ ID+Activities, global_set, mean)
 
