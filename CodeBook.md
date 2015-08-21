@@ -41,4 +41,93 @@ is reduced to 88
 
 **Other variables** = 86 time and frequency domain variables comprising mean and standard deviation values 
 which were normalized and bounded within [-1,1]; for each combination 
-of subject and activity there was the mean value calculated for every variable
+of subject and activity there was the mean value calculated for every variable, namely:
+
+tBody Acceleration mean   X                      
+tBody Acceleration mean   Y                      
+tBody Acceleration mean   Z                       
+tBody Acceleration std   X                       
+tBody Acceleration std   Y                       
+tBody Acceleration std   Z                       
+tGravity Acceleration mean   X                   
+tGravity Acceleration mean   Y                   
+tGravity Acceleration mean   Z                   
+tGravity Acceleration std   X                    
+tGravity Acceleration std   Y                     
+tGravity Acceleration std   Z                    
+tBody Acceleration Jerk mean   X                  
+tBody Acceleration Jerk mean   Y                 
+tBody Acceleration Jerk mean   Z                 
+tBody Acceleration Jerk std   X                  
+tBody Acceleration Jerk std   Y                   
+tBody Acceleration Jerk std   Z                  
+tBody Gyro mean   X                               
+tBody Gyro mean   Y                              
+tBody Gyro mean   Z                              
+tBody Gyro std   X                               
+tBody Gyro std   Y                               
+tBody Gyro std   Z                               
+tBody Gyro Jerk mean   X                         
+tBody Gyro Jerk mean   Y                         
+tBody Gyro Jerk mean   Z                         
+tBody Gyro Jerk std   X                          
+tBody Gyro Jerk std   Y                           
+tBody Gyro Jerk std   Z                          
+tBody Acceleration Mag mean                       
+tBody Acceleration Mag std                       
+tGravity Acceleration Mag mean                    
+tGravity Acceleration Mag std                    
+tBody Acceleration Jerk Mag mean                  
+tBody Acceleration Jerk Mag std                  
+tBody Gyro Mag mean                              
+tBody Gyro Mag std                               
+tBody Gyro Jerk Mag mean                          
+tBody Gyro Jerk Mag std                          
+fBody Acceleration mean   X                       
+fBody Acceleration mean   Y                      
+fBody Acceleration mean   Z                      
+fBody Acceleration std   X                       
+fBody Acceleration std   Y                       
+fBody Acceleration std   Z                       
+fBody Acceleration mean Freq   X                  
+fBody Acceleration mean Freq   Y                 
+fBody Acceleration mean Freq   Z                 
+fBody Acceleration Jerk mean   X                 
+fBody Acceleration Jerk mean   Y                  
+fBody Acceleration Jerk mean   Z                 
+fBody Acceleration Jerk std   X                   
+fBody Acceleration Jerk std   Y                  
+fBody Acceleration Jerk std   Z                   
+fBody Acceleration Jerk mean Freq   X            
+fBody Acceleration Jerk mean Freq   Y             
+fBody Acceleration Jerk mean Freq   Z            
+fBody Gyro mean   X                               
+fBody Gyro mean   Y                              
+fBody Gyro mean   Z                               
+fBody Gyro std   X                               
+fBody Gyro std   Y                                
+fBody Gyro std   Z                               
+fBody Gyro mean Freq   X                         
+fBody Gyro mean Freq   Y                         
+fBody Gyro mean Freq   Z                          
+fBody Acceleration Mag mean                      
+fBody Acceleration Mag std                        
+fBody Acceleration Mag mean Freq                 
+fBody Acceleration Jerk Mag mean                  
+fBody Acceleration Jerk Mag std                  
+fBody Acceleration Jerk Mag mean Freq             
+fBody Gyro Mag mean                              
+fBody Gyro Mag std                                
+fBody Gyro Mag mean Freq                         
+fBody Gyro Jerk Mag mean                          
+fBody Gyro Jerk Mag std                          
+fBody Gyro Jerk Mag mean Freq                     
+angle tBody Acceleration Mean Gravity            
+angle tBody Acceleration Jerk Mean  Gravity Mean  
+angle tBody Gyro Mean Gravity Mean               
+angle tBody Gyro Jerk Mean Gravity Mean          
+angle X Gravity Mean                             
+angle Y Gravity Mean                              
+angle Z Gravity Mean            
+
+
