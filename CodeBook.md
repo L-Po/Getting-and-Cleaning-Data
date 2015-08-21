@@ -41,7 +41,7 @@ is reduced to 88
 
 **Other variables** = 86 time and frequency domain variables comprising mean and standard deviation values 
 which were normalized and bounded within [-1,1]; for each combination 
-of subject and activity there was the mean value calculated for every variable, namely:
+of subject and activity there was the average value calculated of each variable, namely:
 
 tBody Acceleration mean   X                      
 tBody Acceleration mean   Y                      
